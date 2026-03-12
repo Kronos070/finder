@@ -1,0 +1,1 @@
+import{w as e,p as s}from"./chunk-LFPYN7LY-CmdQzttt.js";const n=e(function(){return s.jsxs(s.Fragment,{children:[s.jsx("div",{children:"Home page!"}),s.jsx("a",{href:"/posts",children:"Posts"})]})});export{n as default};

@@ -1,0 +1,35 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--mantine-spacing-xl);
+  /* Чистый светлый фон без перегруженных картинок, если нужно */
+  background-color: #fcfcfc;
+}
+
+.form {
+  background-color: var(--mantine-color-white);
+  padding: rem(50px);
+  border-radius: 12px;
+  /* Мягкая "офисная" тень без грязи */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04), 0 1px 8px rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 2%;
+  width: 40%;
+  max-width: rem(420px);
+  
+  @media (max-width: 480px) {
+    padding: var(--mantine-spacing-xl);
+    width: calc(100% - 32px);
+  }
+}
+
+.title {
+  color: var(--mantine-color-black);
+  font-family: Outfit, var(--mantine-font-family);
+  font-weight: 600;
+  text-align: center;
+  font-size: rem(24px);
+  margin-bottom: rem(30px);
+}

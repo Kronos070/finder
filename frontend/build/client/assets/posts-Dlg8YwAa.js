@@ -1,0 +1,1 @@
+import{w as o,p as t}from"./chunk-LFPYN7LY-CmdQzttt.js";const i=o(function({loaderData:n}){return t.jsx(t.Fragment,{children:n.data.map(s=>t.jsx("div",{children:s.title},s.id))})});export{i as default};
