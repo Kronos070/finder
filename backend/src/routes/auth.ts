@@ -14,6 +14,7 @@ const auth = new Hono()
             httpOnly: true,
             secure: process.env.NODE_ENV === 'production',
             sameSite: 'Lax',
+            path: '/',
             maxAge: 60 * 60 * 24,
         })
 

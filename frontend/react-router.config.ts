@@ -1,6 +1,4 @@
 import type { Config } from "@react-router/dev/config";
-import { axiosInstance } from "./app/lib/axios";
-import type { PostI } from "~/types/types";
 
 // скачивания файлов для билда (статика)
 export default {

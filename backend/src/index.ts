@@ -7,8 +7,10 @@ const app = new Hono().basePath('/api');
 
 app.use('*', logger());
 app.use('*', cors({
-  origin: '*',
+  origin: 'http://localhost:5173',
   credentials: true,
+  allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowHeaders: ['Origin', 'Content-Type', 'Accept', 'Authorization'],
 }));
 
 const routes = app
